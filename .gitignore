@@ -1,0 +1,51 @@
+# --- GENERAL & OS ---
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# --- PYTHON / DJANGO ---
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+.env
+.env.*
+!.env.example
+db.sqlite3
+*.sqlite3
+local_settings.py
+staticfiles/
+media/
+coverage/
+.coverage
+htmlcov/
+.pytest_cache/
+
+# --- NODE / FRONTEND ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.npm/
+dist/
+build/
+.cache/
+.eslintcache
+.stylelintcache
+
+# --- VITE / REACT ---
+dist-ssr/
+*.local
+
+# --- AGENTS / AI ---
+.gemini/
+.agent/
